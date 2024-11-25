@@ -17,7 +17,7 @@
   
   //functions
   function loadInfoBoxes() {
-
+    loader.classList.toggle("hidden");
     //make AJAX call here
 
     fetch("https://swiftpixel.com/earbud/api/infoboxes")
@@ -25,7 +25,7 @@
     // take that resppnse and turn that response into a string object
     .then(infoBoxes => {
       console.log(infoBoxes);
-
+      
       infoBoxes.forEach((infoBox, index) => {
         let selected = document.querySelector(`#hotspot-${index + 1}`);
   
