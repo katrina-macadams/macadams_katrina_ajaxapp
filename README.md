@@ -1,3 +1,4 @@
+
 ![Dog Fetch](images/fetch.gif)
 
 # AJAX APP
@@ -5,9 +6,8 @@
 
 ## Overview  
 
-This repository contains the code and assets for a dynamic earbuds promotional page. This project integrates motion graphics, interactivity, and responsive web development. Built using SASS, AJAX, and the Fetch API, this page showcases animated 3D models and dynamically loaded content.
 
----
+This repository contains the code and assets for a dynamic earbuds promotional page. This project integrates motion graphics, interactivity, and web development. Built using SASS, AJAX, and the Fetch API, this page showcases an animated 3D model and dynamically loaded content.
 
 ## Features  
 - **:orange_circle: Interactive Hotspots**: Clickable hotspots on the 3D earbuds model dynamically display feature information fetched from the provided API.  
@@ -48,7 +48,6 @@ This repository contains the code and assets for a dynamic earbuds promotional p
 - **v1.1.0 - November 2024**  :desktop_computer:
     - Added dynamic rendering of hotspot content using Fetch and Template elements.
     - Integrated loading indicator for better user experience.
-    - Improved responsiveness with SASS styling.
     - Polished animations and transitions for hotspot interactions.
     - Enhanced error handling for Fetch API calls.
 
@@ -75,5 +74,5 @@ Dribble
 
 MIT License
 
-
 ![loading cat gif](images/loadingcat.gif)
+
